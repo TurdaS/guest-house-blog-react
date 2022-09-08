@@ -1,0 +1,18 @@
+.contact-card-container {
+  text-align: center;
+  margin: 2rem;
+  background-color:#420816fe;
+  border-radius: 5px;
+  padding: 1rem 2rem 2rem 2rem;
+  color: white;
+}
+
+.contact-card-item {
+  max-width: 8rem;
+  
+  text-align: center;
+}
+
+.contact-card-item p {
+  margin-bottom: 0;
+}

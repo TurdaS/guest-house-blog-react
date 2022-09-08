@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/navbar/navbar";
+import Desprenoi from "./pages/desprenoi";
+import Home from "./pages/home";
+import Preturi from "./pages/preturi";
+import Galerie from "./pages/galerie";
+import Footer from "./components/footer/footer";
+import Contact from "./pages/contact";
+import Rezervare from "./pages/rezervare";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="d-flex flex-column h-100">
+      <BrowserRouter>
+        <Navbar />
+        <main>
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path="/about" element={<Desprenoi />} />
+            <Route path="/preturi" element={<Preturi />} />
+            <Route path="/galerie" element={<Galerie />} />
+            <Route path="/rezervare" element={<Rezervare />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
