@@ -23,26 +23,30 @@ const Desprenoi = () => {
         toaletă gratuite și uscător de păr. <br></br>Recepţia proprietăţii are
         acces non-stop, intrarea fiind pe baza de cod. Cel mai apropiat aeroport
         este Aeroportul Târgu Mureș, situat la 14 km de Pensiunea Elphin.
-        Cuplurile apreciază în mod deosebit această locaţie, de aceea, pensounea a primit scorul 9.7
-        pentru un sejur pentru 2 persoane.Această proprietate este de asemenea
-        cotată pentru cel mai bun raport calitate/preţ în Târgu Mureş! Clienții
-        primesc mai mult pentru banii lor comparativ cu alte proprietăți din
-        acest oraș.<br></br>
+        Cuplurile apreciază în mod deosebit această locaţie, de aceea, pensounea
+        a primit scorul 9.7 pentru un sejur pentru 2 persoane.Această
+        proprietate este de asemenea cotată pentru cel mai bun raport
+        calitate/preţ în Târgu Mureş! Clienții primesc mai mult pentru banii lor
+        comparativ cu alte proprietăți din acest oraș.<br></br>
         <br></br>
         Vorbim pe limba dumneavoastră!
       </h4>
       <div>
         <div className="despre-text"> Ce oferim noi </div>
-        <div className="despre-icons">
-          <div>
-            <AiOutlineWifi size="1.5rem" className="mb-1" color="blue" />
-            Wi-fi gratuit pentru toate camerele si spatiile comune
+        <div className="d-flex justify-content-center gap-2">
+          <div className="d-flex flex-column p-2">
+            <div className="mb-1">
+              <AiOutlineWifi size="1.5rem" className="me-2" color="blue" />
+              <span>
+                Wi-fi gratuit pentru toate camerele si spatiile comune
+              </span>
+            </div>
             <MdFreeBreakfast size="1.5rem" className="mb-1" color="#333" />
             Mic-dejun intre orle 08:00-10:00
             <FaConciergeBell size="1.5rem" className="mb-1" color="grey" />
             Self check-in cu intrare pe baza de cod
           </div>
-          <div>
+          <div className="d-flex flex-column p-2">
             <MdOutlineBusinessCenter
               size="1.5rem"
               className="mb-1"

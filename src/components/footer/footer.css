@@ -1,14 +1,10 @@
 
 .ftr {
     width: 100%;
-    height: 30px;
     font-size: 1rem;
     display: flex;
     justify-content: space-between;
     color: rgb(59, 165, 139);
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #520317fe;
-    margin-top: 1rem;
-    
-    
 }
