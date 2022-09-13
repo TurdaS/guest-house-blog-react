@@ -6,6 +6,8 @@ import { MdOutlineBusinessCenter } from "react-icons/md";
 import { FiMonitor } from "react-icons/fi";
 import { FaParking } from "react-icons/fa";
 import { GiCctvCamera } from "react-icons/gi";
+import { FaChessKnight } from "react-icons/fa";
+
 
 const Desprenoi = () => {
   return (
@@ -33,32 +35,42 @@ const Desprenoi = () => {
       </h4>
       <div>
         <div className="despre-text"> Ce oferim noi </div>
-        <div className="d-flex justify-content-center gap-2">
+        <div className="d-flex justify-content-center">
           <div className="d-flex flex-column p-2">
-            <div className="mb-1">
-              <AiOutlineWifi size="1.5rem" className="me-2" color="blue" />
-              <span>
-                Wi-fi gratuit pentru toate camerele si spatiile comune
-              </span>
+            <div className="pb-4">
+              <AiOutlineWifi size="2rem" className="me-2"  color="blue" />
+              <span>Wi-fi gratuit pentru toate camerele</span>
             </div>
-            <MdFreeBreakfast size="1.5rem" className="mb-1" color="#333" />
-            Mic-dejun intre orle 08:00-10:00
-            <FaConciergeBell size="1.5rem" className="mb-1" color="grey" />
-            Self check-in cu intrare pe baza de cod
+            <div className="pb-4" >
+              <MdFreeBreakfast size="2rem" className="me-2 " color="#333" />
+              <span>Mic-dejun intre orle 08:00-10:00 </span>
+            </div>
+            <div className="pb-4">
+              <MdOutlineBusinessCenter size="2rem" className="mb-1" color="brown"/>
+              <span>Sala de sedinte </span>
+            </div>
+            <div className="pb-4">
+              <FaParking size="2rem" className="mb-1" color="blue" />
+              <span>Parcare gratuita </span>
+            </div>
           </div>
           <div className="d-flex flex-column p-2">
-            <MdOutlineBusinessCenter
-              size="1.5rem"
-              className="mb-1"
-              color="brown"
-            />
-            Sala de sedinte
-            <FiMonitor size="1.5rem" className="mb-1" color="black" />
-            Televiziune prin cablu si satelit
-            <FaParking size="1.5rem" className="mb-1" color="blue" />
-            Parcare gratuita
-            <GiCctvCamera size="1.5rem" className="mb-1" color="blue" />
-            Supraveghere video 24 de ore
+          <div className="pb-4">
+              <FiMonitor size="2rem" className="mb-1" color="black" />
+              <span>Televiziune prin cablu si satelit </span>
+            </div>
+            <div className="pb-4">
+              <FaConciergeBell size="2rem" className="me-2" color="grey" />
+              <span>Self check-in cu intrare pe baza de cod </span>
+            </div>
+            <div className="pb-4">
+              <FaChessKnight size="2rem" className="mb-1" color="darkgoldenrod" />
+              <span>Sala de jocuri </span>
+            </div>
+            <div className="pb-4">
+              <GiCctvCamera size="2rem" className="mb-1" color="blue" />
+              <span>Supraveghere video 24 de ore </span>
+            </div>
           </div>
         </div>
       </div>

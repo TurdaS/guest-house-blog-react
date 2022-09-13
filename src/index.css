@@ -30,9 +30,10 @@ main {
   object-fit: cover;
 }
 
-.home-image {
-  border-radius: 80%;
+.home-image{
+  border-radius:10%;
   border-style:groove;
+  margin-right: 10rem;
 }
 
 .home-gallery {

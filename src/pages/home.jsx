@@ -1,7 +1,7 @@
 import ImgCarousel from "../components/carousel/carousel";
 import ContactCard from "../components/contactCard/contactCard";
 
-const poze = ["earnings.jfif"];
+const poze = ["discount1.jfif"];
 
 const Home = () => {
   return (
