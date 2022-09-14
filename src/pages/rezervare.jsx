@@ -18,11 +18,11 @@ const Rezervare = () => {
     )
     .then(
       (result) => {
-       alert('Email a fost trimis cu succes.')
+       alert('Email-ul a fost trimis cu succes.')
 
       },
       (error) => {
-        alert('!!! Erroare la transmiterea emailului, incearca mai tarziu!!!')
+        alert('!!! Erroare la transmiterea emailului, incercati din nou mai tarziu!!!')
 
       }
     );
@@ -35,7 +35,7 @@ const Rezervare = () => {
         backgroundImage: "url(/images/lobby2.jpeg)",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        padding: "1rem 10rem",
+        padding: "1rem 12rem",
       }}
     >
       <div className="form-text">Formular pt rezervare</div>
@@ -45,7 +45,7 @@ const Rezervare = () => {
             <Form.Label>
               Numele și prenumele
             </Form.Label>
-            <Form.Control id="nume" placeholder="Nume si Prenume" name="name"/>
+            <Form.Control id="nume" placeholder="nume si prenume" name="name"/>
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label>Adresă</Form.Label>
@@ -66,7 +66,7 @@ const Rezervare = () => {
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label htmlFor="">Număr de telefon</Form.Label>
-            <Form.Control id="phone" placeholder="Nr de telefon" name="phone"/>
+            <Form.Control id="phone" placeholder="numar de telefon" name="phone"/>
           </Form.Group>
           <Form.Label className="mb-3">
             Selectați tipul de cameră dorită

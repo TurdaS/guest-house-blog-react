@@ -98,13 +98,19 @@ main {
 
 
 
-.contact-container {
+.contact-text {
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 1.6rem;
 display: flex;
 align-items: center;
-padding-left:5rem;
+padding-left:2rem;
+margin-right: 1rem;
 color: rgb(104, 155, 16);
+}
+
+.map-container {
+   margin-top: 2rem;
+   margin-right: 2rem;
 }
 
 .booking-form {
